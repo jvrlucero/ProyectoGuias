@@ -628,6 +628,7 @@ public class Guia1 extends javax.swing.JFrame {
         if(ComprobarSiEsUnNumero(jTextField7.getText())==true)
             jLabel9.setText(Math.pow((Double.parseDouble(jTextField7.getText())/Math.pow(3,0.5)),3)+" unidades cúbicas");
         else
+            //mensaje de error al no ingresar dato
             JOptionPane.showMessageDialog(this, "No ha ingresado ningún dato");
     }//GEN-LAST:event_jButton4ActionPerformed
 
